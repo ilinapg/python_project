@@ -1,0 +1,69 @@
+{% extends "base_page.html" %}
+
+{% block page-title %}
+{% if ans == 0 %}
+    {{task.0.0}}   
+{% endif %} 
+{% if ans == 1 %}
+    {{task.1.0}}   
+{% endif %} 
+{% if ans == 2 %}
+    {{task.2.0}}   
+{% endif %} 
+{% endblock %}
+
+
+{% block content %}
+<div class="container-sm px-5 py-5" id="term-form">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#cpu-fill"></use>
+                </svg>
+            </div>
+            <div>
+                <h3>{{ task.0.1 }}</h3>
+                {% if ans == 0 %}
+                    <a href="/right" class="btn btn-primary">Проверить</a>
+                {% endif %}
+                {% if ans != 0 %}
+                    <a href="/wrong" class="btn btn-primary">Проверить</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#cpu-fill"></use>
+                </svg>
+            </div>
+            <div>
+                <h3>{{ task.1.1 }}</h3>
+                {% if ans == 1 %}
+                    <a href="/right" class="btn btn-primary">Проверить</a>
+                {% endif %}
+                {% if ans != 1 %}
+                    <a href="/wrong" class="btn btn-primary">Проверить</a>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#cpu-fill"></use>
+                </svg>
+            </div>
+            <div>
+                <h3>{{ task.2.1 }}</h3>
+                {% if ans == 2 %}
+                    <a href="/right" class="btn btn-primary">Проверить</a>
+                {% endif %}
+                {% if ans != 2 %}
+                    <a href="/wrong" class="btn btn-primary">Проверить</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
