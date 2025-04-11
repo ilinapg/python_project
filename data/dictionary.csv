@@ -1,0 +1,149 @@
+word;translation;source;learned
+9-slice scaling;9-дольное масштабирование;db;False
+accessibility, a11y;доступность;db;False
+adaptive design;адаптивный дизайн;db;False
+almost standards mode;почти стандартный режим;db;False
+anchor;ссылка, якорь;db;False
+animation;анимация;db;False
+asset;ресурс;db;False
+assert;проверка;db;False
+at-keyword;ключ директивы;db;False
+at-rule;директива;db;False
+attribute;атрибут;db;False
+backdrop;подложка;db;False
+back-end;бэкенд, внутренняя часть серверной системы, занимается обработкой данных;db;False
+background;фон;db;False
+baseline;воображаемая линия в основании букв в строке;db;False
+bikeshed;уделять чрезмерное внимание мелочам;db;False
+blending mode;режим наложения;db;False
+block;блок деклараций;db;False
+blockquote;блочная цитата;db;False
+border;рамка;db;False
+border-radius;скругление рамки;db;False
+bounding box;окаймляющий блок;db;False
+box model;блочная модель;db;False
+box-shadow;тень (блока);db;False
+breadcrumbs;хлебные кро́шки;db;False
+breakpoint;точка останова;db;False
+browser;бра́узер;db;False
+button;кнопка;db;False
+callback;колбэк;db;False
+cascade;каскад;db;False
+cascade layer;каскадный слой;db;False
+cascade origin;каскадный источник;db;False
+cell;ячейка;db;False
+cellpadding;отступ в ячейках;db;False
+cellspacing;расстояние между ячейками;db;False
+character reference;символьная подстановка;db;False
+checkbox;элемент интерфейса для выбора одного или нескольких вариантов;db;False
+clear;отмена обтекания, CSS-свойство, запрещающее блоку обтекать предшествующие плавающие блоки;db;False
+clearfix;приём для предотвращения схлопывания контейнеров с плавающими блоками;db;False
+click;клик;db;False
+clipping path;контур обрезки;db;False
+colspan;объединение столбцов;db;False
+column;столбец, колонка;db;False
+combinator;комбинатор;db;False
+container query;выражение от контейнера;db;False
+containment;обособление;db;False
+containing block;блок, относительно которого рассчитываются размеры и положения данного блока;db;False
+continuous integration;непрерывная интеграция;db;False
+custom properties;кастомные свойства;db;False
+data binding;связывание данных;db;False
+debugger;отла́дчик;db;False
+declaration;декларация;db;False
+deep comparison;глубокое сравнение;db;False
+deploy, deployment;деплой, развёртывание, выкладка, выкатка;db;False
+deprecated;устаревший;db;False
+dirty checking;проверка на «грязные» свойства объекта;db;False
+disabled;неактивный;db;False
+doctype;конструкция вида `<DOCTYPE html>` в начале документа, которая обозначает используемую версию HTML;db;False
+drag and drop;перетаскивание;db;False
+dropdown;выпадающее меню;db;False
+easing;плавность, функция плавности;db;False
+em;единица измерения в CSS, которая зависит от размера шрифта родителя;db;False
+engine;движок;db;False
+fallback;запасной вариант;db;False
+favicon;значок сайта;db;False
+fieldset;группа полей;db;False
+figcaption;заголовок фигуры;db;False
+float;свойство блока, заставляющее последующие блоки обтекать его;db;False
+font;шрифт;db;False
+footer;характерная визуальная область в конце страницы;db;False
+forced color mode;режим принудительных цветов;db;False
+fragment identifier;идентификатор фрагмента;db;False
+framework;набор библиотек и компонентов для упрощения разработки;db;False
+full screen;полноэкранный режим;db;False
+generated content;сгенерированное содержимое;db;False
+graceful degradation;подход, при котором интерфейс сайта деградирует для старых браузеров, где не поддерживаются какие-то из используемых технологий;db;False
+grid;сетка;db;False
+icon font;иконочный шрифт;db;False
+immutable;неизменяемый;db;False
+implement;внедрять, реализовывать;db;False
+intrinsic dimensions;собственные размеры;db;False
+internationalization, i18n;процесс проектирования и разработки интерфейса, позволяющий производить локализацию без каких-либо технических изменений;db;False
+kerning;расстояние между парами букв, учитывающее их форму для более равномерного набора;db;False
+keyframe animation;покадровая анимация;db;False
+keyword;ключевое слово;db;False
+lazy loading;отложенная загрузка;db;False
+letter-spacing;межбуквенное расстояние;db;False
+line-box;контейнер строки;db;False
+margin;внешний отступ;db;False
+margin box;внешние отступы;db;False
+mixin;набор свойств, расширяющий поведение другой сущности;db;False
+mock object;фиктивный объект;db;False
+mock-up;макет;db;False
+nested;вложенный;db;False
+node;узел;db;False
+opacity;непрозрачность;db;False
+origin colors;начальные цвета;db;False
+outline;обводка;db;False
+package manager;менеджер пакетов;db;False
+padding;внутренний отступ;db;False
+performance;быстродействие;db;False
+performance budget;максимально допустимые показатели быстродействия веб-приложения;db;False
+persistent data structures;постоянные структуры данных;db;False
+pixel density;плотность пикселей;db;False
+placeholder;заглушка;db;False
+popup;всплывающее окно;db;False
+progress bar;индикатор выполнения;db;False
+property;свойство;db;False
+pseudo-element;псевдоэлемент;db;False
+quirks mode;режим совместимости;db;False
+recalculate;перерасчет;db;False
+registry;реестр;db;False
+reflow;перекомпоновка;db;False
+relative colors;изменение цвета, встроенное в CSS;db;False
+render;отрисовка;db;False
+repaint;перерисовка;db;False
+reset;сброс;db;False
+resolution;разрешение;db;False
+responsive design;отзывчивый дизайн;db;False
+rest parameters;остаточные параметры;db;False
+rounded corners;скруглённые углы;db;False
+row;строка, ряд;db;False
+rowspan;объединение строк;db;False
+rule-set;блок стилей элемента;db;False
+shallow comparison;поверхностное сравнение;db;False
+scaffolding;автоматическая генерация кода по описанию, метод метапрограммирования;db;False
+scale;масштаб;db;False
+scope;область видимости;db;False
+script;скрипт;db;False
+scroll;прокрутка;db;False
+scrollbar;полоса прокрутки;db;False
+sectioning roots;структурные основы;db;False
+short-circuit evaluation;сокращённое вычисление;db;False
+sibling;сосед;db;False
+skew;наклон;db;False
+spread;расширение;db;False
+statement;объявление;db;False
+stub object;заглушка;db;False
+submit;отправка;db;False
+textarea;текстовая область;db;False
+thumbnail;миниатюра;db;False
+touch interface;сенсорный интерфейс;db;False
+transpiler;транспилер;db;False
+unit testing;модульное тестирование;db;False
+valid;соответствующий стандарту, спецификации или другому нормативу;db;False
+variable units;переменные единицы измерения;db;False
+website, web site;сайт;db;False
+whitespace;пробел, пробельный символ;db;False
